@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZTQuicklyCreateTemplate_Example' do
+  pod 'ZTQuicklyCreateTemplate', :path => '../'
+
+  target 'ZTQuicklyCreateTemplate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
