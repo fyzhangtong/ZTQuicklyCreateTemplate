@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10E0E85EC0117AE854952CF80D36354C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		178542F070F920C3DB2547C9653F9ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		43E05FD9642348080F0198B069341FF9 /* Pods-ZTQuicklyCreateTemplate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAF3CD500E7C9DEA689E8E870FD1743 /* Pods-ZTQuicklyCreateTemplate_Tests-dummy.m */; };
+		43F736A895A01AEB7F59524856186289 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3492E07A39FAEB3BC775D21B90897B /* ReplaceMe.m */; };
+		5EB6054BD8258556158ED23558542A38 /* ZTQuicklyCreateTemplate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E7AC41F832B1292432E86C5C11267E7 /* ZTQuicklyCreateTemplate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F85125DB77911062B10EB59CD250B6 /* ZTQuicklyCreateTemplate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5649840A0C22724FBB23841856142111 /* ZTQuicklyCreateTemplate-dummy.m */; };
+		755CFE442B46F8BAFDFEE6C46E4371DA /* Pods-ZTQuicklyCreateTemplate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8D80CAA8B825340AE3BD787B84D82A /* Pods-ZTQuicklyCreateTemplate_Example-dummy.m */; };
+		7DFC24775A6E333247BDF18E748CC6BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		93ACFD1790787A4C739FFEFA10172203 /* Pods-ZTQuicklyCreateTemplate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7713848291D2096299AA4DA53FB2C7 /* Pods-ZTQuicklyCreateTemplate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75FC7DCA4DB25F6DBA950671572E596 /* Pods-ZTQuicklyCreateTemplate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B737B792DBF2AE805FA532B69A908B /* Pods-ZTQuicklyCreateTemplate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ED86C5E39744228252C48B90B883AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D45E641138C907AA80E233AE332BAA26;
+			remoteInfo = ZTQuicklyCreateTemplate;
+		};
+		F471650E2724200243FF28B5C0E38F2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6277E231CE76F7C894B57A2BC00F2F4;
+			remoteInfo = "Pods-ZTQuicklyCreateTemplate_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E7AC41F832B1292432E86C5C11267E7 /* ZTQuicklyCreateTemplate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTQuicklyCreateTemplate-umbrella.h"; sourceTree = "<group>"; };
+		2F3492E07A39FAEB3BC775D21B90897B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZTQuicklyCreateTemplate/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		350CD716BBF94A4165ACD6EB000DE607 /* Pods-ZTQuicklyCreateTemplate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTQuicklyCreateTemplate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36BA6D314FECBFD2174C15E74A13F020 /* Pods-ZTQuicklyCreateTemplate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTQuicklyCreateTemplate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4BC2887144A5B0E747AC01FDAAE4E177 /* ZTQuicklyCreateTemplate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZTQuicklyCreateTemplate-prefix.pch"; sourceTree = "<group>"; };
+		4DB9DDF86D1F90F99740453C9CEEF75E /* Pods-ZTQuicklyCreateTemplate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTQuicklyCreateTemplate_Example-Info.plist"; sourceTree = "<group>"; };
+		5649840A0C22724FBB23841856142111 /* ZTQuicklyCreateTemplate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZTQuicklyCreateTemplate-dummy.m"; sourceTree = "<group>"; };
+		691B0EA9FE4E7A4D89A964EBF189F4C5 /* ZTQuicklyCreateTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTQuicklyCreateTemplate.debug.xcconfig; sourceTree = "<group>"; };
+		6A1CA5EABE11FE3700F344FCF3314D9F /* Pods-ZTQuicklyCreateTemplate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTQuicklyCreateTemplate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DDF55D0CE474060063587475E47BFFA /* Pods-ZTQuicklyCreateTemplate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTQuicklyCreateTemplate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7087A74CC21B9397ECCB31AB6316B579 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		70E906A263814BBD4E6323564ED570C9 /* ZTQuicklyCreateTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZTQuicklyCreateTemplate.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75B737B792DBF2AE805FA532B69A908B /* Pods-ZTQuicklyCreateTemplate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTQuicklyCreateTemplate_Example-umbrella.h"; sourceTree = "<group>"; };
+		7740294475E80D545D3E02D60B43A562 /* ZTQuicklyCreateTemplate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZTQuicklyCreateTemplate.modulemap; sourceTree = "<group>"; };
+		7A7E7E10AA87CEE31B3FD6555562BE53 /* Pods-ZTQuicklyCreateTemplate_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZTQuicklyCreateTemplate_Tests"; path = Pods_ZTQuicklyCreateTemplate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A66E26B739467BCBC08A22872A928C5 /* ZTQuicklyCreateTemplate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZTQuicklyCreateTemplate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B9DB7DB2D4FA7C5948229A4FE53F3FF5 /* ZTQuicklyCreateTemplate */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZTQuicklyCreateTemplate; path = ZTQuicklyCreateTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7713848291D2096299AA4DA53FB2C7 /* Pods-ZTQuicklyCreateTemplate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZTQuicklyCreateTemplate_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C3D91FDD339B8BA11CD6313E3B1DF9E5 /* Pods-ZTQuicklyCreateTemplate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZTQuicklyCreateTemplate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD0F845B14410C152246333CC250F0E3 /* Pods-ZTQuicklyCreateTemplate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTQuicklyCreateTemplate_Example.modulemap"; sourceTree = "<group>"; };
+		D7B20D1582D465CD35C87745F1288396 /* Pods-ZTQuicklyCreateTemplate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZTQuicklyCreateTemplate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB27A86B38E1ADFBB34FF53C91B893D1 /* Pods-ZTQuicklyCreateTemplate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTQuicklyCreateTemplate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD9E3EE9DB5A87826691E44397D4401B /* Pods-ZTQuicklyCreateTemplate_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ZTQuicklyCreateTemplate_Example"; path = Pods_ZTQuicklyCreateTemplate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E495B167397E6F38A3504F7CDCFD2A55 /* Pods-ZTQuicklyCreateTemplate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTQuicklyCreateTemplate_Tests-Info.plist"; sourceTree = "<group>"; };
+		E5BC456316D6A0DB940DD97461D0AA59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ECAF3CD500E7C9DEA689E8E870FD1743 /* Pods-ZTQuicklyCreateTemplate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTQuicklyCreateTemplate_Tests-dummy.m"; sourceTree = "<group>"; };
+		EF8D80CAA8B825340AE3BD787B84D82A /* Pods-ZTQuicklyCreateTemplate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZTQuicklyCreateTemplate_Example-dummy.m"; sourceTree = "<group>"; };
+		F487680CBA398A2FF83560015F3E05E7 /* Pods-ZTQuicklyCreateTemplate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZTQuicklyCreateTemplate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4D49A7AD8F15E3E651534E3120D2DF0 /* ZTQuicklyCreateTemplate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZTQuicklyCreateTemplate-Info.plist"; sourceTree = "<group>"; };
+		F4DDAF5E01F9DD93A2D39992A592B630 /* Pods-ZTQuicklyCreateTemplate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZTQuicklyCreateTemplate_Tests.modulemap"; sourceTree = "<group>"; };
+		F8C8F1D3E9092FC64A19A7B2670CB0AA /* Pods-ZTQuicklyCreateTemplate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZTQuicklyCreateTemplate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C624E63900671F1629367B24692B69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E0E85EC0117AE854952CF80D36354C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C9140567827D1BC4534FAF7B8375CC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178542F070F920C3DB2547C9653F9ED8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3297397A64AA8310D33D89B733BDCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFC24775A6E333247BDF18E748CC6BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC5AC6F761698B665C7B141AFE5B417 /* ZTQuicklyCreateTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2F3492E07A39FAEB3BC775D21B90897B /* ReplaceMe.m */,
+				9CC0B83C285AC59AE0BFB7FE2B18D373 /* Pod */,
+				3E6CB8D387DCD459DE0C2CFF1C7C24DA /* Support Files */,
+			);
+			name = ZTQuicklyCreateTemplate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		36EB475F747C8CC921C55913B14D4B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E3EE9DB5A87826691E44397D4401B /* Pods-ZTQuicklyCreateTemplate_Example */,
+				7A7E7E10AA87CEE31B3FD6555562BE53 /* Pods-ZTQuicklyCreateTemplate_Tests */,
+				B9DB7DB2D4FA7C5948229A4FE53F3FF5 /* ZTQuicklyCreateTemplate */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E6CB8D387DCD459DE0C2CFF1C7C24DA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7740294475E80D545D3E02D60B43A562 /* ZTQuicklyCreateTemplate.modulemap */,
+				5649840A0C22724FBB23841856142111 /* ZTQuicklyCreateTemplate-dummy.m */,
+				F4D49A7AD8F15E3E651534E3120D2DF0 /* ZTQuicklyCreateTemplate-Info.plist */,
+				4BC2887144A5B0E747AC01FDAAE4E177 /* ZTQuicklyCreateTemplate-prefix.pch */,
+				2E7AC41F832B1292432E86C5C11267E7 /* ZTQuicklyCreateTemplate-umbrella.h */,
+				691B0EA9FE4E7A4D89A964EBF189F4C5 /* ZTQuicklyCreateTemplate.debug.xcconfig */,
+				70E906A263814BBD4E6323564ED570C9 /* ZTQuicklyCreateTemplate.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZTQuicklyCreateTemplate";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		67E960FC7B64CF24376A79C45AD17250 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BC5AC6F761698B665C7B141AFE5B417 /* ZTQuicklyCreateTemplate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		72C9E20638019B71F83CC40D15086DBC /* Pods-ZTQuicklyCreateTemplate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CD0F845B14410C152246333CC250F0E3 /* Pods-ZTQuicklyCreateTemplate_Example.modulemap */,
+				F8C8F1D3E9092FC64A19A7B2670CB0AA /* Pods-ZTQuicklyCreateTemplate_Example-acknowledgements.markdown */,
+				F487680CBA398A2FF83560015F3E05E7 /* Pods-ZTQuicklyCreateTemplate_Example-acknowledgements.plist */,
+				EF8D80CAA8B825340AE3BD787B84D82A /* Pods-ZTQuicklyCreateTemplate_Example-dummy.m */,
+				C3D91FDD339B8BA11CD6313E3B1DF9E5 /* Pods-ZTQuicklyCreateTemplate_Example-frameworks.sh */,
+				4DB9DDF86D1F90F99740453C9CEEF75E /* Pods-ZTQuicklyCreateTemplate_Example-Info.plist */,
+				75B737B792DBF2AE805FA532B69A908B /* Pods-ZTQuicklyCreateTemplate_Example-umbrella.h */,
+				D7B20D1582D465CD35C87745F1288396 /* Pods-ZTQuicklyCreateTemplate_Example.debug.xcconfig */,
+				36BA6D314FECBFD2174C15E74A13F020 /* Pods-ZTQuicklyCreateTemplate_Example.release.xcconfig */,
+			);
+			name = "Pods-ZTQuicklyCreateTemplate_Example";
+			path = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Example";
+			sourceTree = "<group>";
+		};
+		9CC0B83C285AC59AE0BFB7FE2B18D373 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E5BC456316D6A0DB940DD97461D0AA59 /* LICENSE */,
+				7087A74CC21B9397ECCB31AB6316B579 /* README.md */,
+				9A66E26B739467BCBC08A22872A928C5 /* ZTQuicklyCreateTemplate.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A692B295E41C51C6911E92F52FCF8854 /* Pods-ZTQuicklyCreateTemplate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DDAF5E01F9DD93A2D39992A592B630 /* Pods-ZTQuicklyCreateTemplate_Tests.modulemap */,
+				DB27A86B38E1ADFBB34FF53C91B893D1 /* Pods-ZTQuicklyCreateTemplate_Tests-acknowledgements.markdown */,
+				6A1CA5EABE11FE3700F344FCF3314D9F /* Pods-ZTQuicklyCreateTemplate_Tests-acknowledgements.plist */,
+				ECAF3CD500E7C9DEA689E8E870FD1743 /* Pods-ZTQuicklyCreateTemplate_Tests-dummy.m */,
+				E495B167397E6F38A3504F7CDCFD2A55 /* Pods-ZTQuicklyCreateTemplate_Tests-Info.plist */,
+				BE7713848291D2096299AA4DA53FB2C7 /* Pods-ZTQuicklyCreateTemplate_Tests-umbrella.h */,
+				350CD716BBF94A4165ACD6EB000DE607 /* Pods-ZTQuicklyCreateTemplate_Tests.debug.xcconfig */,
+				6DDF55D0CE474060063587475E47BFFA /* Pods-ZTQuicklyCreateTemplate_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZTQuicklyCreateTemplate_Tests";
+			path = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				67E960FC7B64CF24376A79C45AD17250 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				36EB475F747C8CC921C55913B14D4B04 /* Products */,
+				FA620F4E16C6C60A057167D310EDA690 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA620F4E16C6C60A057167D310EDA690 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72C9E20638019B71F83CC40D15086DBC /* Pods-ZTQuicklyCreateTemplate_Example */,
+				A692B295E41C51C6911E92F52FCF8854 /* Pods-ZTQuicklyCreateTemplate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4281B3876699AD23995C8A0984E486DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93ACFD1790787A4C739FFEFA10172203 /* Pods-ZTQuicklyCreateTemplate_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB5CAA90D63DD09E765FC249BCABA06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75FC7DCA4DB25F6DBA950671572E596 /* Pods-ZTQuicklyCreateTemplate_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5086821D0A288182E9CB391F35FA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB6054BD8258556158ED23558542A38 /* ZTQuicklyCreateTemplate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		76546A75543BE5343F3A3FF97CF14DE7 /* Pods-ZTQuicklyCreateTemplate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC3D07D577E0AFEC80EAA72AA346215 /* Build configuration list for PBXNativeTarget "Pods-ZTQuicklyCreateTemplate_Tests" */;
+			buildPhases = (
+				4281B3876699AD23995C8A0984E486DF /* Headers */,
+				4BEB882349352AA1BDE403B5DE3C853C /* Sources */,
+				7C9140567827D1BC4534FAF7B8375CC5 /* Frameworks */,
+				EB20979AB861756CED4B1EF4D25CF125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAFEEC74EAFF117281087F0E9F98E8A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZTQuicklyCreateTemplate_Tests";
+			productName = Pods_ZTQuicklyCreateTemplate_Tests;
+			productReference = 7A7E7E10AA87CEE31B3FD6555562BE53 /* Pods-ZTQuicklyCreateTemplate_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6277E231CE76F7C894B57A2BC00F2F4 /* Pods-ZTQuicklyCreateTemplate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8926310D7A57A5201FB8020BE5BAA8E9 /* Build configuration list for PBXNativeTarget "Pods-ZTQuicklyCreateTemplate_Example" */;
+			buildPhases = (
+				CBB5CAA90D63DD09E765FC249BCABA06 /* Headers */,
+				53D15A423E58240F6988657088C31514 /* Sources */,
+				2C624E63900671F1629367B24692B69D /* Frameworks */,
+				7BFC87FB55A1F3B2BE2078F4388B1904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B298C5105B79FFAEA2BC8664E0EE81D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZTQuicklyCreateTemplate_Example";
+			productName = Pods_ZTQuicklyCreateTemplate_Example;
+			productReference = DD9E3EE9DB5A87826691E44397D4401B /* Pods-ZTQuicklyCreateTemplate_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D45E641138C907AA80E233AE332BAA26 /* ZTQuicklyCreateTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516CDB584DED2D1F7A1EB2574880AEE9 /* Build configuration list for PBXNativeTarget "ZTQuicklyCreateTemplate" */;
+			buildPhases = (
+				FD5086821D0A288182E9CB391F35FA97 /* Headers */,
+				A10723F8B047714419C5E1792DDEFD05 /* Sources */,
+				EA3297397A64AA8310D33D89B733BDCC /* Frameworks */,
+				2EA80DFDC7A85679134B34BBA9F7BDC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTQuicklyCreateTemplate;
+			productName = ZTQuicklyCreateTemplate;
+			productReference = B9DB7DB2D4FA7C5948229A4FE53F3FF5 /* ZTQuicklyCreateTemplate */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 36EB475F747C8CC921C55913B14D4B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6277E231CE76F7C894B57A2BC00F2F4 /* Pods-ZTQuicklyCreateTemplate_Example */,
+				76546A75543BE5343F3A3FF97CF14DE7 /* Pods-ZTQuicklyCreateTemplate_Tests */,
+				D45E641138C907AA80E233AE332BAA26 /* ZTQuicklyCreateTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EA80DFDC7A85679134B34BBA9F7BDC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BFC87FB55A1F3B2BE2078F4388B1904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB20979AB861756CED4B1EF4D25CF125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BEB882349352AA1BDE403B5DE3C853C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E05FD9642348080F0198B069341FF9 /* Pods-ZTQuicklyCreateTemplate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53D15A423E58240F6988657088C31514 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755CFE442B46F8BAFDFEE6C46E4371DA /* Pods-ZTQuicklyCreateTemplate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10723F8B047714419C5E1792DDEFD05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F736A895A01AEB7F59524856186289 /* ReplaceMe.m in Sources */,
+				72F85125DB77911062B10EB59CD250B6 /* ZTQuicklyCreateTemplate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B298C5105B79FFAEA2BC8664E0EE81D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZTQuicklyCreateTemplate;
+			target = D45E641138C907AA80E233AE332BAA26 /* ZTQuicklyCreateTemplate */;
+			targetProxy = 4ED86C5E39744228252C48B90B883AFC /* PBXContainerItemProxy */;
+		};
+		CAFEEC74EAFF117281087F0E9F98E8A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZTQuicklyCreateTemplate_Example";
+			target = B6277E231CE76F7C894B57A2BC00F2F4 /* Pods-ZTQuicklyCreateTemplate_Example */;
+			targetProxy = F471650E2724200243FF28B5C0E38F2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025714369BAF3C2519826C262D99BF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 350CD716BBF94A4165ACD6EB000DE607 /* Pods-ZTQuicklyCreateTemplate_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Tests/Pods-ZTQuicklyCreateTemplate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Tests/Pods-ZTQuicklyCreateTemplate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F165518A17C63CA148B57CCD2F25D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DDF55D0CE474060063587475E47BFFA /* Pods-ZTQuicklyCreateTemplate_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Tests/Pods-ZTQuicklyCreateTemplate_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Tests/Pods-ZTQuicklyCreateTemplate_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		102CF7A9FD63603F744CCA294B84A32A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691B0EA9FE4E7A4D89A964EBF189F4C5 /* ZTQuicklyCreateTemplate.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTQuicklyCreateTemplate/ZTQuicklyCreateTemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTQuicklyCreateTemplate/ZTQuicklyCreateTemplate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTQuicklyCreateTemplate/ZTQuicklyCreateTemplate.modulemap";
+				PRODUCT_MODULE_NAME = ZTQuicklyCreateTemplate;
+				PRODUCT_NAME = ZTQuicklyCreateTemplate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1384CFE430FB582F144E5DD72AA20F28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E906A263814BBD4E6323564ED570C9 /* ZTQuicklyCreateTemplate.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZTQuicklyCreateTemplate/ZTQuicklyCreateTemplate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZTQuicklyCreateTemplate/ZTQuicklyCreateTemplate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZTQuicklyCreateTemplate/ZTQuicklyCreateTemplate.modulemap";
+				PRODUCT_MODULE_NAME = ZTQuicklyCreateTemplate;
+				PRODUCT_NAME = ZTQuicklyCreateTemplate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17D55129CBD5F58B22B6B099546D536C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7B20D1582D465CD35C87745F1288396 /* Pods-ZTQuicklyCreateTemplate_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Example/Pods-ZTQuicklyCreateTemplate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Example/Pods-ZTQuicklyCreateTemplate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C65947FA30FC815E755FD640F5359C6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36BA6D314FECBFD2174C15E74A13F020 /* Pods-ZTQuicklyCreateTemplate_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Example/Pods-ZTQuicklyCreateTemplate_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZTQuicklyCreateTemplate_Example/Pods-ZTQuicklyCreateTemplate_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516CDB584DED2D1F7A1EB2574880AEE9 /* Build configuration list for PBXNativeTarget "ZTQuicklyCreateTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				102CF7A9FD63603F744CCA294B84A32A /* Debug */,
+				1384CFE430FB582F144E5DD72AA20F28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8926310D7A57A5201FB8020BE5BAA8E9 /* Build configuration list for PBXNativeTarget "Pods-ZTQuicklyCreateTemplate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D55129CBD5F58B22B6B099546D536C /* Debug */,
+				C65947FA30FC815E755FD640F5359C6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC3D07D577E0AFEC80EAA72AA346215 /* Build configuration list for PBXNativeTarget "Pods-ZTQuicklyCreateTemplate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025714369BAF3C2519826C262D99BF5A /* Debug */,
+				0F165518A17C63CA148B57CCD2F25D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

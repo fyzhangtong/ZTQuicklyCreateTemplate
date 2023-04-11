@@ -1,0 +1,6 @@
+framework module ZTQuicklyCreateTemplate {
+  umbrella header "ZTQuicklyCreateTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}

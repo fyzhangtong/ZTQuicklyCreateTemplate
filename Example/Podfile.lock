@@ -1,0 +1,16 @@
+PODS:
+  - ZTQuicklyCreateTemplate (0.1.0)
+
+DEPENDENCIES:
+  - ZTQuicklyCreateTemplate (from `../`)
+
+EXTERNAL SOURCES:
+  ZTQuicklyCreateTemplate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZTQuicklyCreateTemplate: c109a26aae8b035ae3b69700aeb6c58d3515de3f
+
+PODFILE CHECKSUM: dcbe7efb40fe10765c903566c43da92eaa637073
+
+COCOAPODS: 1.12.0
